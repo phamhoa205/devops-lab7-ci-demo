@@ -154,7 +154,7 @@ pipeline {
 
         always {
             echo "Pipeline finished at: ${currentBuild.duration}ms"
-            cleanWs()
+            deleteDir()
         }
     }
 }
