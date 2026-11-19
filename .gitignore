@@ -1,0 +1,14 @@
+# Submission and packaging directory
+Lab7_PhamMinhHoa_DTC235180075/
+*.zip
+
+# Maven target directories
+target/
+**/target/
+
+# IDE / OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
